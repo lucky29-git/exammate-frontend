@@ -1,0 +1,7 @@
+.fullpage{
+    height: 100vh;
+    
+    max-height: 2000vh;
+    margin-bottom: 5rem;
+    padding-bottom: 12rem;
+}

@@ -1,0 +1,46 @@
+.custom{
+    max-height: 1500vh;
+}
+
+
+
+
+.title {
+    color: #990420;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+  
+.icon{
+    color: #31030c;
+}
+
+
+
+.preview {
+    color: #27060c;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic; 
+   
+}
+  
+
+
+
+.download-button {
+    background-color: #990420;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.download-button:hover {
+    background-color: rgb(93, 7, 7); /* Darker brown on hover */
+}
+
+  
+ 

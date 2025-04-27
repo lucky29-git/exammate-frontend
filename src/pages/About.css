@@ -1,0 +1,154 @@
+.aboutPageNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Adjust z-index as needed */
+    background-color: #f6eadd;
+    height: 7vh;
+    padding-top: 1.3rem;
+    margin-bottom: 3rem;
+    max-height: 50vh;
+  }
+  
+  .aboutPage {
+    /* Add margin or padding to the top of your content so it doesn't get covered by the fixed navbar */
+    padding-top: 5vh; /* Adjust as needed based on the height of your navbar */
+    margin-top: 0;
+    background-color: transparent;
+
+  }
+  
+  .welcomeGreet{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://source.unsplash.com/random/?notes');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .welcomeGreetContent{
+    place-items: center;
+    text-align: center;
+    margin-top: 4rem;
+  }
+
+  .welcomeGreetContent h2{
+    font-size: 3rem;
+    color: #720216;
+  }
+
+  .welcomeGreetContent h1{
+    font-weight: bolder;
+    padding: 10px;
+    font-size: 4.5rem;
+    color:#720216;
+  }
+
+  .aboutWebsite{
+    height: auto;
+    display: flex;
+    /* flex-direction: column; */
+    padding: 3rem;
+    padding-top: 4rem;
+    gap: 2rem;
+  }
+
+.leftSide h1{
+    text-shadow: 1px 1px 3px black;
+}
+
+.rightSide ul{
+    list-style: none;
+    padding: 0;
+}
+
+.rightSide ul li{
+    padding: 10px 0 0 28px;
+    position: relative;
+}
+
+.ourTeam {
+    max-height: 200vh;
+    padding-bottom: 2rem;
+    background-color: #f6e9e9;
+  }
+  
+  .TeamHeading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-top: 2rem;
+    background-color: #986a4b;
+  }
+  
+  .TeamHeading h1 {
+    text-shadow: 1px 1px 3px black;
+    font-size: 2.5rem;
+  }
+  
+  .TeamHeading p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(236, 216, 190);
+    padding: 10px;
+  }
+  
+  .teamMembers {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next row */
+    justify-content: center; /* Center the cards horizontally */
+    background-color: #986a4b;
+  }
+  
+  .col-lg-3 {
+    width: calc(50% - 20px); /* Two cards in a row for large screens */
+    margin: 10px; /* Add some margin between cards */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .col-lg-3 {
+      width: calc(50% - 20px); /* Two cards in a row for medium screens */
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .col-lg-3 {
+      width: calc(100% - 20px); /* One card per row for small screens */
+    }
+  }
+
+  footer{
+    color: #1f0308;
+    text-align: center;
+    padding: 10px;
+    background-color: #d1bbac;
+  }
+
+  @media screen and (max-width: 576px) {
+    /* Adjustments for small screens */
+
+    .aboutPage {
+      padding-top: 9vh; /* Match navbar height */
+    }
+  
+    .welcomeGreet {
+      height: 30vh; /* Reduced height for smaller screens */
+    }
+  
+    .welcomeGreetContent h1 {
+      font-size: 2.5rem; /* Adjusted font size for smaller screens */
+    }
+  
+    .leftSide h1 {
+      font-size: 1.5rem; /* Adjusted font size for smaller screens */
+    }
+  
+    .TeamHeading h1 {
+      font-size: 1.5rem; /* Adjusted font size for smaller screens */
+    }
+  }
+  
