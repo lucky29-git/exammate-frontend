@@ -23,7 +23,7 @@ function App() {
     
     <BrowserRouter>
     <Routes>
-      <Route path='dashboard' element = {<Suspense fallback={"Loading..."} ><Dashboard/></Suspense>} />
+      <Route path='/' element = {<Suspense fallback={"Loading..."} ><Dashboard/></Suspense>} />
       <Route path='signin' element = {<Suspense fallback={"Loading..."} ><Signin/></Suspense>} />
       <Route path='signup' element = {<Suspense fallback={"Loading..."} ><Signup/></Suspense>} />
       <Route path='resources' element = {<Suspense fallback={"Loading..."} ><Resources /></Suspense>} />
