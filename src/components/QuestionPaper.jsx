@@ -42,7 +42,7 @@ const QuestionPaperForm = ({ onSubmit }) => {
     // let output=await axios.post('https://exammate-backend-seven.vercel.app/paper', obj)
     // }, [])
     // console.log(output);
-    let output = await axios.post('https://exammate-backend-seven.vercel.app/paper', obj, {
+    let output = await axios.post('https://exammate-backend-b011.onrender.com/paper', obj, {
       withCredentials: true, // This is important for CORS with credentials
       headers: {
         'Content-Type': 'application/json'
